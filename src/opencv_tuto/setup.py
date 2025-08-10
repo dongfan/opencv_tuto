@@ -23,6 +23,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'img_pub = opencv_tuto.img_pub:main',
         ],
     },
 )
